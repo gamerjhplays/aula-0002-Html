@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Aula 0002</title>
+		<style>
+			p, h1 {
+				background-color: #559933;
+				color: purple;
+				text-align: center;
+				font-family: 'Indie Flower', cursive;
+				font-size: 37px;
+			}
+			#parag {
+				display:block;
+				margin: 30px auto;
+			}
+		</style>
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+	</head>
+	<body>
+		<script>
+			function mudar1() {
+				document.getElementById("parag").src = "Gtx 1080.jpg";
+			}
+		</script>
+		<p>Isto é um paragrafo</p>
+		<h1>Isto é um texto</h1>
+		<img id="parag" onmouseover="mudar1() ;" src="pimentaPara testes.jpg"/>
+
+	</body>
+</html> 
